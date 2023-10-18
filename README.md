@@ -9,7 +9,7 @@ Here's a simple example of HTML code that creates a basic webpage structure:
 
 html code:
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
     <title>My Web Page</title>
@@ -26,7 +26,7 @@ html code:
     <a href="https://www.example.com">Visit Example.com</a>
 </body>
 </html>
-In this example, you can see HTML tags like <html>, <head>, <title>, <body>, <h1>, <p>, <ul>, <li>, <img>, and <a>, which are used to structure and display content on a web page.
+In this example, you can see HTML tags like <html>, <head>, <title>, <body>, <h1>, <p>, <ul>, <li>, <img>, and <a>, which are used to structure and display content on a web page. -->
 
 # Tags in html:
 
