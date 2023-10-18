@@ -573,3 +573,5 @@ In HTML, attributes are additional pieces of information that can be added to HT
    ```
 
 These are just a few examples of HTML attributes. Different elements have different attributes associated with them, and attributes provide a way to customize and control the behavior and appearance of HTML elements on a web page.
+
+
