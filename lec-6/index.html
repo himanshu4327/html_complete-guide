@@ -1,0 +1,71 @@
+# Table:
+
+<!-- 
+    Certainly, here's a list of commonly used HTML table-related tags:
+
+1. `<table>`: Defines the container for a table.
+2. `<thead>`: Groups header content in a table.
+3. `<tbody>`: Groups the main content (body) of a table.
+4. `<tfoot>`: Groups footer content in a table.
+5. `<tr>`: Defines a table row.
+6. `<th>`: Defines a table header cell.
+7. `<td>`: Defines a table data cell.
+8. `<caption>`: Provides a title or a caption for a table.
+9. `<colgroup>`: Groups a set of `<col>` elements for applying styles or other attributes to columns.
+10. `<col>`: Specifies column properties within a `<colgroup>`.
+11. `<thead>`: Represents the set of columns in a table to be used for labeling columns.
+12. `<tfoot>`: Represents the set of columns in a table to be used for summarizing column groups.
+13. `<thead>`: Represents a set of rows defining the column headers in a table.
+14. `<tfoot>`: Represents a set of rows defining the column footers in a table.
+15. `<tbody>`: Represents a set of rows containing the table's data.
+
+These HTML table tags are used to structure and format tabular data within web pages. Depending on your specific needs, you can use a combination of these tags to create well-organized and styled tables.
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn table in html</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <th>student id</th>
+            <th>student name</th>
+            <th>gender</th>
+            <th>age</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1234</td>
+                <td colspan="3">bill</td>
+              
+               
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>bill</td>
+                <td>male</td>
+                <td rowspan="3">17</td>
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>bill</td>
+                <td>male</td>
+                
+            </tr>
+            <tr>
+                <td>1234</td>
+                <td>bill</td>
+                <td>male</td>
+               
+            </tr>
+        </tbody>
+    
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!-- HTML provides a variety of form-related elements and attributes to create and manage forms on web pages. Here's a list of commonly used form-related tags and attributes:
+
+**Form Tags:**
+
+1. `<form>`: Defines an HTML form that contains various form elements for user input.
+
+**Text Input Elements:**
+
+2. `<input>`: Represents an input control, such as a text field, radio button, checkbox, or submit button.
+3. `<textarea>`: Defines a multi-line text input control.
+4. `<select>`: Creates a dropdown list of options for selection.
+5. `<option>`: Defines an option within a `<select>` element.
+6. `<button>`: Creates a clickable button.
+
+**Form Controls:**
+
+7. `<label>`: Defines a label for an input element, enhancing accessibility.
+8. `<fieldset>`: Groups related form elements within a fieldset for better organization.
+9. `<legend>`: Provides a caption or title for a `<fieldset>`.
+10. `<optgroup>`: Groups related options within a `<select>` element.
+11. `<datalist>`: Specifies a list of predefined options for an `<input>` element.
+12. `<keygen>`: Deprecated - used to generate a key pair for form submission.
+13. `<output>`: Represents the result of a calculation or operation.
+
+**Form Attributes:**
+
+14. `action`: Specifies the URL where the form data will be sent upon submission.
+15. `method`: Defines the HTTP method for form submission, typically "get" or "post."
+16. `name`: Assigns a name to the form element.
+17. `target`: Specifies where the response from the form submission will be displayed (e.g., "_blank" to open in a new window).
+
+**Input Types:**
+
+18. `type="text"`: Creates a single-line text input.
+19. `type="password"`: Generates a password input.
+20. `type="checkbox"`: Provides a checkbox input.
+21. `type="radio"`: Creates a radio button input.
+22. `type="submit"`: Generates a submit button.
+23. `type="reset"`: Creates a reset button to clear form data.
+24. `type="button"`: Creates a general-purpose button.
+25. `type="hidden"`: Hides input data from users (used for various purposes).
+26. `type="file"`: Generates a file upload input.
+
+These form-related elements and attributes are essential for creating interactive and user-friendly forms on your web pages. Depending on your requirements, you can use these tags and attributes to design various types of forms, gather user input, and submit data to a server for processing.
+
+HTML provides several elements for creating forms and capturing user input. Here are the primary form element and input elements:
+
+**Form Element:**
+
+1. `<form>`: The `<form>` element is the fundamental container for creating forms in HTML. It wraps all the form controls (input elements, buttons, etc.) and defines how the form data should be submitted to the server. It uses the `action` attribute to specify the URL where the form data is sent and the `method` attribute to determine the HTTP method (GET or POST) used for the submission.
+
+**Input Elements:**
+
+2. `<input>`: The `<input>` element is a versatile form control used for various input types. It is commonly used for text input, checkboxes, radio buttons, and more. The specific input type is defined by the `type` attribute.
+
+   - `type="text"`: Creates a single-line text input.
+   - `type="password"`: Creates a password input.
+   - `type="checkbox"`: Creates a checkbox input.
+   - `type="radio"`: Creates a radio button input.
+   - `type="submit"`: Creates a submit button.
+   - `type="reset"`: Creates a reset button to clear form data.
+   - `type="button"`: Creates a general-purpose button.
+   - `type="hidden"`: Hides input data from users (used for various purposes).
+   - `type="file"`: Creates a file upload input.
+   - `type="email"`: Accepts email addresses.
+   - `type="number"`: Accepts numeric values.
+   - `type="date"`: Accepts date values.
+   - `type="color"`: Allows users to select a color.
+   - and more...
+
+3. `<textarea>`: The `<textarea>` element is used to create multi-line text input fields. It's often used for comments, messages, and longer text input.
+
+4. `<select>`: The `<select>` element is used to create dropdown lists, allowing users to select one or more options from a list of choices. It contains one or more `<option>` elements.
+
+5. `<button>`: The `<button>` element can be used for various purposes within a form. It can be used to create a submit button, reset button, or general-purpose button. The button text is placed between the opening and closing `<button>` tags.
+
+These form elements are essential for creating interactive forms on web pages. Depending on your specific requirements, you can choose the appropriate input types and form controls to collect user data and process it on the server or client-side.
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- Form -->
+    <form action="">
+        <label for="email">Enter Email id</label>
+        <input type="text" id="email" placeholder="Enter your Email here">
+     <br>
+     <br>
+        <label for="password">Enter password</label>
+        <input type="text" id="password" placeholder="Enter your password here">
+<br>
+<br>
+        <input type="Submit" value="Submit" >
+        <button>Click me</button>
+
+        <br>
+        <br>
+        <input type="radio" name="" id="fname">
+        <input type="checkbox" name="" id="lname">
+        <input type="date" name="" id="date">
+<br>
+<br>
+
+
+    </form>
+</body>
+</html>
