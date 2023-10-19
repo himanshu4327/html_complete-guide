@@ -7,27 +7,6 @@ HTML documents are plain text files with a .html or .htm extension, and they can
 
 Here's a simple example of HTML code that creates a basic webpage structure:
 
-html code:
-
-<!-- <!DOCTYPE html>
-<html>
-<head>
-    <title>My Web Page</title>
-</head>
-<body>
-    <h1>Welcome to My Web Page</h1>
-    <p>This is a paragraph of text.</p>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
-    <img src="my-image.jpg" alt="An example image">
-    <a href="https://www.example.com">Visit Example.com</a>
-</body>
-</html>
-In this example, you can see HTML tags like <html>, <head>, <title>, <body>, <h1>, <p>, <ul>, <li>, <img>, and <a>, which are used to structure and display content on a web page. -->
-
 # Tags in html:
 
 HTML uses tags to define and structure (semantics/formatting) the content of a web page. Tags are enclosed in angle brackets (`<` and `>`), and they come in pairs: an opening tag and a closing tag. The opening tag marks the beginning of an element, and the closing tag marks the end of that element. Here are some common HTML tags:
@@ -575,3 +554,38 @@ In HTML, attributes are additional pieces of information that can be added to HT
 These are just a few examples of HTML attributes. Different elements have different attributes associated with them, and attributes provide a way to customize and control the behavior and appearance of HTML elements on a web page.
 
 
+# Emmet  
+
+
+
+<!-- block and in-line element -->
+# diffrence:
+In HTML and web design, elements are categorized into two main types: block-level elements and inline elements. These categories describe how elements are displayed and how they interact with other elements on a web page.
+
+**Block-Level Elements:**
+
+1. **Definition:** Block-level elements are elements that create a block or a rectangular box in the web page's layout. They typically start on a new line and extend the full width of their parent container.
+
+2. **Examples:** Common block-level elements include `<div>`, `<p>`, `<h1>` to `<h6>`, `<ul>`, `<ol>`, `<li>`, `<table>`, `<form>`, and more.
+
+3. **Behavior:**
+   - Block-level elements create a new "block" or "box" in the layout, pushing any following content to a new line.
+   - They can contain other block-level and inline elements, as well as text and other content.
+   - Block-level elements can have defined dimensions (width and height) and can be styled with margins, padding, and borders.
+
+**Inline Elements:**
+
+1. **Definition:** Inline elements, on the other hand, do not create new blocks in the layout. They typically flow within the content and do not start on a new line.
+
+2. **Examples:** Common inline elements include `<a>`, `<span>`, `<strong>`, `<em>`, `<img>`, `<br>`, and `<i>`.
+
+3. **Behavior:**
+   - Inline elements do not create new blocks, so they flow within the content on the same line as the surrounding text or other inline elements.
+   - They are often used for styling specific parts of text or for embedding content within a paragraph or other text elements.
+   - Inline elements cannot contain block-level elements but can contain other inline elements and text.
+
+**Distinguishing Between Block-Level and Inline Elements:**
+
+You can distinguish between block-level and inline elements by how they behave and their appearance in the layout. Block-level elements create distinct blocks, whereas inline elements are part of the surrounding text flow. This distinction is important when you're structuring and styling your web content. For example, if you want to create a block-level container for a section of content, you'd use a block-level element like `<div>`. If you want to emphasize a portion of text, you'd use inline elements like `<strong>` or `<em>`.
+
+Understanding the behavior of block-level and inline elements is fundamental to creating well-structured and visually appealing web pages. These concepts are also important when working with CSS for layout and styling.
